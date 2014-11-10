@@ -1,6 +1,6 @@
 unipd
 =====
-<p>Some of my university projects and stuff.</p>
+<p>Some of my university projects and stuff. (C++, HTML, CSS, JavaScript, PHP, MySQL)</p>
 
 <h2>teachings</h2>
 <ul>
