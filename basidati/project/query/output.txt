@@ -1,0 +1,66 @@
+Query1
+
++----------------------------------------------+----------+
+| Title                                        | Username |
++----------------------------------------------+----------+
+| Nvidia maxwell skipping 20nm, jumps on 16nm! | micalleg |
+| Sapphire Radeon HD 7950 one fan acting weird | micalleg |
+| Unigine Valley Benchmark 1.0                 | micalleg |
++----------------------------------------------+----------+
+
+
+Query2
+
++-----------+
+| Username  |
++-----------+
+| gcusinat  |
+| GoodBytes |
+| micalleg  |
+| slickPC   |
++-----------+
+
+
+Query3
+
++-------------------------------------------------------------+
+| Title                                                       |
++-------------------------------------------------------------+
+| LTT Forums CPU Overclocking Database!                       |
+| Unigine Valley Benchmark 1.0                                |
+| Intel records strong Q2 earnings, beats PC market estimates |
++-------------------------------------------------------------+
+
+
+Query4
+
++----------------------------------------------+------------+-----------+
+| Title                                        | PostDate   | PostCount |
++----------------------------------------------+------------+-----------+
+| LTT Forums CPU Overclocking Database!        | 2014-07-16 |         1 |
+| AOC releases a 34inch 21:9 3440x1440 monitor | 2014-07-16 |         1 |
++----------------------------------------------+------------+-----------+
+
+
+Query5
+
++----------+
+| Username |
++----------+
+| micalleg |
++----------+
+
+
+Query6
+
++-----------+---------------+----------+
+| Username  | Conversations | Messages |
++-----------+---------------+----------+
+| micalleg  |             9 |        9 |
+| gcusinat  |             1 |        0 |
+| jedi12    |             1 |        0 |
+| slickPC   |             1 |        0 |
+| GoodBytes |             0 |        0 |
+| pcEnt     |             0 |        0 |
++-----------+---------------+----------+
+

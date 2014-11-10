@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\usepackage[utf8x]{inputenc} 
+\usepackage{lipsum}
+\usepackage{fullpage}
+\usepackage{titlesec}
+\usepackage{verbatimbox}
+\newcounter{question}
+\setcounter{question}{0}
+
+\titlespacing*{\section}
+{0pt}{48pt}{12pt}
+
+
+\begin{document}
+
+
+\title{Calcolo Numerico: Q\&A's}
+\author{Giacomo Cusinato}
+\maketitle
+
+
+\input{sections/01-floating-point.tex}
+\input{sections/02-floating-point-precision.tex}
+
+
+\end{document}

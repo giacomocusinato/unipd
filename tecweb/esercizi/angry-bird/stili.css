@@ -1,0 +1,178 @@
+  /*
+General styles
+*/
+
+html, body {
+  margin: auto;
+  max-width: 1024px;
+  border: 1px solid;
+}
+
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+Header styles
+*/
+
+#header {
+  background-color: #A80022;
+  text-align: center;
+  padding: 1.5em;
+}
+
+#header h1 {
+  color: #F3C528;
+  font-size: 2.7em;
+}
+
+#header h2 {
+  color: #F3C528;
+  font-size: 2.2em;
+}
+
+
+/*
+Path styles
+*/
+
+#path {
+  background-color: #0E1E38;
+  color: #F3C528;
+  padding: 12px 12px;
+}
+
+/*
+News styles
+*/
+
+#news {
+  float: right;
+  width: 20%;
+  height: inherit;
+  border: 1px dashed;
+  padding: 1em;
+  margin-top: 1.0em;
+  margin-right: 2%;
+  margin-left: 3%;
+  overflow: hidden;
+}
+
+#news h1 {
+  font-size: 1.3em;
+  background-color: #F3C528;
+  padding-left: 0.2em;
+}
+
+#news ul {
+  padding-top: 1em;
+  padding-left: 1.3em;
+}
+
+
+/*
+Navigation styles
+*/
+
+#navigation {
+  border-style: none;
+  float: left;
+  width: 20%;
+  overflow: hidden;
+
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 24px 0px 0px 12px;
+}
+
+
+#navigation-current {
+  background-image: url("materiale/images/red_small.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 1.5em;
+}
+
+
+/*
+Content styles
+*/
+
+#container {
+  border-top-style: none;
+  border-left: 1px solid;
+  margin-left: 25%;
+  padding: 24px;
+}
+
+#container h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#content {
+  padding-left: 5%;
+  padding-right: 5%;
+  border: none;
+}
+
+#content img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 1.0em;
+}
+
+
+#content dt {
+  font-weight: bold;
+  font-size: 1.0em;
+  color: white;
+  background-color: #A80022;
+  padding: 0.5em;
+}
+
+#content dd {
+  padding: 1.0em;
+  margin-bottom: 1.5em;
+  border: 1px solid;
+  display: inline-block;
+}
+
+#content dd img {
+  width: 20%;
+  float: left;
+}
+
+#content dd p {
+  margin-left: 25%;
+}
+
+#content #stylized-list #center-image {
+  width: 50%;
+  float: none;
+  margin-bottom: 1.0em;
+}
+
+#content #stylized-list p {
+  margin-left: 0%;
+  display: inline-block;
+}
+
+/*
+Footer styles
+*/
+
+#footer {
+  clear: both;
+  border-top: 1px solid;
+  text-align: center;
+  padding: 1.0em;
+  display: block;
+}

@@ -1,0 +1,90 @@
+	/* header.php */
+	body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #2F2F30;
+	}
+	#header {
+		background-color: black; 
+		height: 144px;
+	}
+	#content {
+		margin: 48px 96px 48px 96px;
+		color: white;
+	}
+	#title {
+		font-family: Futura, Impact, Helvetica, Arial, sans-serif;
+		color: white;
+		font-size: 48;
+		text-decoration: none;
+	}
+	#headtable {
+		width: 86%;
+		border-collapse: collapse;
+		margin: 0 96 0 96;
+	}
+	.formtext {
+		font-family: helvetica;
+		color: white;	
+	}
+	.option {
+		font-family: helvetica;
+		color: white;
+		text-decoration: none;
+		margin: 0px 12px 0px 0px;
+	}
+	
+	/* body.php */
+	.section {
+		font-family: helvetica;
+		color: #E8CA53;
+		text-decoration: none;
+	}
+	.rectangle {
+    width: 12px;
+    height: 12px;
+    background: #E8CA53;
+    display: inline-block;
+    margin: 0px 6px 0px 0px;
+	}
+	.subsection {
+		color: white;
+		font-family: helvetica;
+		text-decoration: none;
+		margin: 0px 12px 0px 0px;
+	}
+	.tablehead {
+		color: grey;
+		font-family: helvetica;
+	}
+	.number {
+		color: grey;
+		font-family: helvetica;
+		text-align:center;
+	}
+	
+	/* newthread.php */
+	.areatitle {
+		margin: 24px 0px -12px 0px;
+		font-family: helvetica;
+		color: white;
+	}
+	
+	/* thread.php */
+	.thread {
+		font-family: helvetica;
+		color: white;
+	}
+	.content {
+		font-family: times, serif;
+		color: white;
+	}
+	.responses {
+		font-family: helvetica;
+		color: #E8CA53;
+	}
+	.error {
+		font-family: helvetica;
+		color: red;
+	}
+	

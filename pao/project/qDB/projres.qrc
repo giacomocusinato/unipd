@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Resources/Icons/amazingweather.png</file>
+        <file>Resources/Icons/angrybirdsrio.png</file>
+        <file>Resources/Icons/astronomyhub.png</file>
+        <file>Resources/Icons/bingtranslator.png</file>
+        <file>Resources/Icons/default.png</file>
+        <file>Resources/Icons/facebook.png</file>
+        <file>Resources/Icons/instagram.png</file>
+        <file>Resources/Icons/linkedin.png</file>
+        <file>Resources/Icons/musixmatch.png</file>
+        <file>Resources/Icons/mybattery.png</file>
+        <file>Resources/Icons/nextgenreader.png</file>
+        <file>Resources/Icons/paypal.png</file>
+        <file>Resources/Icons/photoeditor.png</file>
+        <file>Resources/Icons/proshot.png</file>
+        <file>Resources/Icons/rainews.png</file>
+        <file>Resources/Icons/seriea.png</file>
+        <file>Resources/Icons/shazam.png</file>
+        <file>Resources/Icons/skype.png</file>
+        <file>Resources/Icons/soundcloud.png</file>
+        <file>Resources/Icons/sportnews.png</file>
+        <file>Resources/Icons/spotify.png</file>
+        <file>Resources/Icons/stopwatch.png</file>
+        <file>Resources/Icons/trenitalia.png</file>
+        <file>Resources/Icons/whatsapp.png</file>
+        <file>Resources/Icons/wikipedia.png</file>
+    </qresource>
+    <qresource prefix="/Stars">
+        <file>Resources/Stars/emptystar.png</file>
+        <file>Resources/Stars/halfstar.png</file>
+        <file>Resources/Stars/star.png</file>
+    </qresource>
+</RCC>
