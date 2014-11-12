@@ -1,11 +1,15 @@
-unipd
-=====
-<p>Some of my university projects and stuff. (C++, HTML, CSS, JavaScript, PHP, MySQL)</p>
+# ![](http://bachserver.pd.infn.it/static/img/unipd_logo.png) UniPD
 
-<h2>teachings</h2>
-<ul>
-<li>pao - Programmazioni Ad Oggetti / Object Oriented Programming</li>
-<li>basidati - Basi di Dati / Databases</li>
-<li>calcolo - Calcolo Numerico / Numerical Analysys</li>
-<li>tecweb - Tecnologie Web / Web Technologies</li>
-</ul>
+> Some of my university projects and stuff (C++, HTML, CSS, JavaScript, PHP, MySQL, LaTeX)
+
+## Teachings
+* pao - Object Oriented Programming
+* basidati - Databases
+* calcolo - Numerical Analysys
+* tecweb - Web Technologies
+
+## Insegnamenti
+* pao - Programmazioni Ad Oggetti
+* basidati - Basi di Dati
+* calcolo - Calcolo Numerico 
+* tecweb - Tecnologie Web
