@@ -1,4 +1,4 @@
-# ![](http://bachserver.pd.infn.it/static/img/unipd_logo.png) UniPD
+# ![](http://bachserver.pd.infn.it/static/img/unipd_logo.png)
 
 > Some of my university projects and stuff (C++, HTML, CSS, JavaScript, PHP, MySQL, LaTeX)
 
