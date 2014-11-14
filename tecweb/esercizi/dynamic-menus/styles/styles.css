@@ -25,7 +25,7 @@ header h1 {
     font-family: Arial, Helvetica;
 }
 
-#container {
+#content {
     background: white;
     font-family: Arial, Helvetica;
     padding-top: 24px;
@@ -74,15 +74,31 @@ nav ul {
     display: inline;
 }
 
+
+#subMenus {
+    width: 100%;
+    height: 40px;
+    background-image: url("../assets/nav.png");
+    background-repeat: repeat-x;
+    margin-top: -3px;
+    display: none;
+}
+
 .menuVert {
     background-color: #EF7351;
     display: none;
-    padding: 12px;
+    margin-top: 10px;
+}
+
+.menuVert li {
+    display: inline;
+    margin-right: 24px;
+    text-shadow: 2px 2px 2px #333333;
 }
 
 nav li {
     text-shadow: 1px 1px 1px #333333;
-    margin-right: 24px;
+    margin-right: 24px; 
     display: block;
 }
 
