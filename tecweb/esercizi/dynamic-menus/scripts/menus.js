@@ -1,7 +1,6 @@
 /**
  * Created by Giacomo on 12/11/2014.
  */
-
 var menuHoriz = $('#menuOne li');
 var menuVert = $('.menuVert');
 var subMenus = $('#subMenus');
