@@ -12,4 +12,4 @@
 * pao - Programmazioni Ad Oggetti
 * basidati - Basi di Dati
 * calcolo - Calcolo Numerico 
-* tecweb - Tecnologie Web.
+* tecweb - Tecnologie Web
