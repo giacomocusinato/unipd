@@ -1,5 +1,9 @@
-#Intellij IDEA
+# Intellij IDEA files
 .idea
 *.iml
-*.
+
+# System files
 .DS_STORE
+
+# Java bytecode
+*.class
