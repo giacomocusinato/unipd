@@ -1,0 +1,16 @@
+<!-- XMLSchema per il tag "pizza" del file elencoPizze.xml -->
+
+<xsd:element name="pizza" type="Tpizza" maxOccurs="unbounded"/>
+
+<xsd:complexType name="Tpizza">
+  <xsd:sequence>
+    <xsd:element name="ingrediente" type="Ting" maxOccurs="unbounded"/>
+  </xsd:sequence>
+  <xsd:attribute name="nome" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="Ting" mixed="true">
+  <xsd:sequence>
+    <xsd:element name="surgelato" type="Tvuoto" minOccurs="0"/>
+  </xsd:complexType>
+</xsd:complexType>
+<xsd:complexType name="Tvuoto">

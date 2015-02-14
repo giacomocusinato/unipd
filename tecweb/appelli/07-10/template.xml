@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1-0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <body>
+      <h1>Pizze</h1>
+      <table><tr>
+      <xsl:for-each select="//pizza">
+        <xsl:sort select="count(ingerdiente)"/>
+        <td><xsl:value-of select="@nome"/>
+          <xsl:if test="ingrediente/surgelato"> ** </xsl:if>
+        </td>
+        <td>
+          <xsl:for-each select="ingrediente">
+            <xsl:value-of select="."/><br/>
+          </xsl:for-each>
+        </td></table>
+      **alcuni ingredienti possono essere surgelati
+    </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>

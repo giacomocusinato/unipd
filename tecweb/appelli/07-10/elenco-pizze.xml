@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elencoPizze aggiornato="1/07/2010">
+  <pizza nome="Margherita">
+    <ingrediente>pomodoro </ingrediente>
+    <ingrediente>mozzarella</ingrediente>
+  </pizza>
+  <pizza nome="Capricciosa">
+    <ingrediente>pomodoro </ingrediente>
+    <ingrediente>mozzarella</ingrediente>
+    <ingrediente>prosciutto </ingrediente>
+    <ingrediente>carciofini</ingrediente>
+    <ingrediente>funghi</ingrediente>
+  </pizza>
+  <pizza nome="Ricotta e Spinaci">
+    <ingrediente>pomodoro </ingrediente>
+    <ingrediente>mozzarella</ingrediente>
+    <ingrediente>ricotta </ingrediente>
+    <ingrediente>spinaci
+      <surgelato/></ingrediente>
+  </pizza>
+</elencoPizze>

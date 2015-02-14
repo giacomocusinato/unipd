@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema sede="SullaLuna">
+  <spettacoli>
+    <film titolo="Amici Miei - come tutto ebbe inizio">
+      <regia>Neri Parenti</regia>
+      <genere>Commedia</genere>
+      <durata>100min</durata>
+      <cast>Michele Placido, Giorgio Panariello, Barbara Enrichi</cast>
+      <riassunto>Continua la saga di &quot;Amici Miei&quot;. In questo episodio ...</riassunto>
+      <locandina src="amicimiei.jpg"/>
+      <note vietatoMinori="no">Disponibili audiodescrizioni per non vedenti</note>
+    </film>
+    <film titolo="Il cigno nero">
+      <regia>Darren Aronofsky</regia>
+      <genere>Thriller</genere>
+      <durata>111min</durata>
+      <cast>Natalie Portman, Vincent Cassel, Winona Ryder</cast>
+      <riassunto>Nina è una ballerina del New York City Ballet che sogna ...</riassunto>
+      <locandina src="ilcignonero.jpg"/>
+      <note vietatoMinori="14">Disponibili audiodescrizioni per non vedenti</note>
+    </film>
+    <film titolo="Rango">
+      <regia>Gore Verbinski</regia>
+      <genere>Animazione</genere>
+      <durata>107min</durata>
+      <vociOriginali>Johnny Depp, Isla Fisher, Bill Nighy</vociOriginali>
+      <riassunto>Il film narra la storia di uno strambo camaleonte ...</riassunto>
+      <locandina src="rango.jpg"/>
+    </film>
+  </spettacoli>
+  <programmazione giorno="2011-03-22">
+    <film titolo="Amici Miei - come tutto ebbe inizio">
+      <orario sala="1">17:40</orario>
+      <orario sala="2">20:15</orario>
+      <orario sala="1">22:40</orario>
+    </film>
+    <film titolo="Il cigno nero">
+      <orario sala="2">17:00</orario>
+      <orario sala="3">19:40</orario>
+      <orario sala="2">22:15</orario>
+    </film>
+    <film titolo="Rango">
+      <orario sala="3">17:15</orario>
+      <orario sala="1">20:00</orario>
+      <orario sala="3">22:35</orario>
+    </film>
+  </programmazione>
+</cinema><
+
+<!--
+  - Scrivere un frammento di schema DTD che descriva con il massimo della precisione possibile
+  il tag film e il suo contenuto (non è necessaria la definizione completa dei nodi figli):
+
+  <!ELEMENT film ((orario)+ | (regia, genere, durata, (vociOriginali | cast), riassunto, locandina, note?))>
+  <!ATTLIST (titlo  (#CDATA) #REQUIRED>
+
+
+  - Scrivere la funzione XPath che ritorna tutti i titoli di film non vietati ai minori:
+
+  //film[(note/@vietatoAiMinori="no") or not(note)]/@titolo
+
+
+  - Scrivere la funzione XPath che ritorna tutti i titoli di film proiettati in sala 1:
+
+  //film[orario/@sala="1"]/@titolo
+  -->

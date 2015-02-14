@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laurea AA="2009/2010" nome="Informatica">
+  <docenti>
+    <docente id="d1">
+      <cognome>Aiolli</cognome>
+      <nome>Fabio</nome>
+      <titolo>Dott.</titolo>
+    </docente>
+    <docente id="d2">
+      <nome>Paolo</nome>
+      <cognome>Baldan</cognome>
+      <titolo>Prof.</titolo>
+    </docente>
+    <docente id="d3">
+      <nome>Livio</nome>
+      <cognome>Colussi</cognome>
+      <titolo>Prof.</titolo>
+    </docente>
+    <docente id="d4">
+      <nome>Gilberto</nome>
+      <cognome>Filè</cognome>
+      <titolo>Prof.</titolo>
+    </docente>
+  </docenti>
+  <corsi>
+    <corso docente="d3" nome="Algoritmi e Strutture Dati">
+      <anno>2</anno>
+      <trimestre>1</trimestre>
+      <ore tipo="frontali">48</ore>
+      <ore tipo="laboratorio">0</ore>
+      <ore tipo="esercizi">16</ore>
+    </corso>
+    <corso docente="d2" nome="Basi di Dati">
+      <anno>3</anno>
+      <trimestre>2</trimestre>
+      <ore tipo="frontali">48</ore>
+      <ore tipo="laboratorio">24</ore>
+      <ore tipo="esercizi">8</ore>
+    </corso>
+    <corso docente="d4" nome="Programmazione">
+      <anno>1</anno>
+      <trimestre>2</trimestre>
+      <ore tipo="frontali">64</ore>
+      <ore tipo="laboratorio">0</ore>
+      <ore tipo="esercizi">16</ore>
+    </corso>
+  </corsi>
+</laurea>
+
+<!--
+Scrivere la funzione XPath che ritorna tutti i corsi con un numero di ore di
+laboratorio maggiore di 0:
+
+//corso[ore[@tipo="laboratorio"] > 0]
+oppure
+//corso[ore/@tipo="laboratorio" and ore/text() > 0]
+
+Scrivere il frammento DTD che descrive il tag docente:
+
+<!ELEMENT docente ((nome, cognome) | (cognome, nome)), titolo)>
+<!ELEMENT docente (nome | cognome)+, titolo>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT cognome (#PCDATA)>
+<!ELEMENT docente (#PCDATA)>
+<!ATTLIST docente id ID #REQUIRED>
+
+-->

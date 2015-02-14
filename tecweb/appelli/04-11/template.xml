@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1-0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <body>
+      <h1>Viaggi in offerta</h1>
+      <p>Numero viaggi in offerta: </p>
+      <xsl:value-of select="count(//viaggio/prezzo[offerta='si'])"/>
+      <table>
+        <th>Destinazione</th><th>Continente</th><th>Descrizione</th>
+        <th>Partenza</th><th>Ritorno</th><th>Prezzo</th>
+          <xsl:for-each select="//viaggio">
+            <xsl:sort select="@continente" order="ascending"/>
+            <tr>
+              <td><xsl:value-of select="destinazione"/></td>
+              <td><xsl:value-of select="@continente"/></td>
+              <td><xsl:value-of select="descrizione"/></td>
+              <td><xsl:value-of select="partenza"/></td>
+              <td><xsl:value-of select="ritorno"/></td>
+              <td><xsl:value-of select="prezzo"/><xsl:value-of select="prezzo/@valuta"/></td>
+            </tr>
+          </xsl:for-each>
+      </table>
+    </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>

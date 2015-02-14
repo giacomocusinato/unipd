@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaggi xmlns="http://viaggi.it">
+  <viaggio continente="Asia">
+    <partenza>2011‐04‐01</partenza>
+    <ritorno>2011‐04‐12</ritorno>
+    <destinazione>Pechino, Cina</destinazione>
+    <descrizione>Venti chilometri a nord‐ovest di Pechino sorge il Summer Palace che è considerato il più grande giardino imperiale di tutta la Cina. I maggiori punti di interesse del Summer Palace sono la &quot;Longevity Hill&quot; (una collina alta 60 metri) ed il &quot;Kunming Lake&quot;...</descrizione>
+    <immagini alt="Il Summer Palace di Pechino">upload/11052091345.jpg</immagini>
+    <prezzo offerta="si" valuta="euro">3000</prezzo>
+  </viaggio>
+  <viaggio continente="Asia">
+    <destinazione>Bangkok, Tailandia</destinazione>
+    <descrizione>Bangkok è una capitale ricca di moltissimi templi e molti palazzi, il più visitato e il più sontuoso è sicuramente il Wat Phra Kaew o il Palazzo Reale....</descrizione>
+    <prezzo offerta="no" valuta="euro">2500</prezzo>
+    <partenza>2011‐05‐11</partenza>
+    <ritorno>2011‐05‐25</ritorno>
+    <immagini alt="Wat Phra Keo, Bangkok">upload/1105209174.jpg</immagini>
+  </viaggio>
+  <viaggio continente="Asia">
+    <prezzo offerta="no" valuta="euro">2000</prezzo>
+    <destinazione>New Delhi, India</destinazione>
+    <partenza>2011‐04‐02</partenza>
+    <ritorno>2011‐04‐11</ritorno>
+    <descrizione>L'edificio che ospita l'hotel Le Meridien di NewDelhi...</descrizione>
+    <immagini alt="Le meridien di New Delhi">upload/11052092234.jpg</immagini>
+  </viaggio>
+  <viaggio continente="America">
+    <destinazione>San Francisco ‐ California</destinazione>
+    <prezzo offerta="si" valuta="euro">1500</prezzo>
+    <descrizione>Località dai ritmi unici, la città sulla Baia è probabilmente...</descrizione>
+    <immagini alt="San Francisco">upload/110520161129.jpg</immagini>
+    <partenza>2011‐08‐04</partenza>
+    <ritorno>2011‐08‐20</ritorno>
+  </viaggio>
+  <viaggio continente="America">
+    <destinazione>Las Vegas ‐ Nevada</destinazione>
+    <partenza>2011‐07‐14</partenza>
+    <ritorno>2011‐07‐28</ritorno>
+    <descrizione>Gli hotel sono molto particolari, tutti a tema ...</descrizione>
+    <immagini alt="Las Vegas">upload/110520161341.jpg</immagini>
+    <prezzo offerta="no" valuta="euro">1500</prezzo>
+  </viaggio>
+  <viaggio continente="Oceania">
+    <destinazione>Melbourne ‐ Australia</destinazione>
+    <partenza>2011‐07‐23</partenza>
+    <ritorno>2011‐08‐10</ritorno>
+    <prezzo offerta="si" valuta="euro">2000</prezzo>
+    <descrizione>E' sicuramente una metropoli con tutti suoi vantaggi ...</descrizione>
+    <immagini alt="Melbourne">upload/110520162141.jpg</immagini>
+  </viaggio>
+</viaggi>
+
+<!--
+  scrivere la funzione XPath che ritorna tutti i luoghi di destinazione dei viaggi che costano
+  più di 2000 euro:
+
+  //viaggio[prezzo > 2000 and prezzo/@valuta="euro"]/destinazione/text()
+-->

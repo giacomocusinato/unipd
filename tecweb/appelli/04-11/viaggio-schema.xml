@@ -1,0 +1,14 @@
+<!-- XMLSchema per il tag "viaggio" del file viaggi.xml (no nodi figli) -->
+
+<xsd:element name="viaggio" type="Tviaggio" maxOccurs="unbounded"/>
+
+<xsd:complexType name="Tviaggio">
+  <xsd:all>
+    <xsd:element name="partenza" type="xsd:date"/>
+    <xsd:element name="ritorno" type="xsd:date"/>
+    <xsd:element name="descrizione" type="xsd:string"/>
+    <xsd:element name="prezzo" type="Tprezzo"/>
+    <xsd:element name="immagini" type="Timmagini"/>
+  </xsd:all>
+  <xsd:attribute name="continente" type="xsd:string" use="required"/>
+</xsd:complexType>

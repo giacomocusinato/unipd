@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<documento numero="12345">
+  <tipologia>fattura</tipologia>
+  <data>16/03/2010</data>
+  <riga num="1">
+    <prodotto id="01">
+      <descr>LCD 17 pollici</descr>
+      <tipologia>Monitor</tipologia>
+      <quantita>3</quantita>
+      <sconto>3%</sconto>
+    </prodotto>
+  </riga>
+  <riga num="2">
+    <prodotto id="15">
+      <descr>microprocessore Intel Pentium Dual Core E6300 1,86 GHz, 2 GB RAM, HD 320 GB</descr>
+      <tipologia>Personal Computer</tipologia>
+      <quantita>10</quantita>
+      Prodotto non in magazzino
+    </prodotto>
+  </riga>
+  <riga num="3">
+    <prodotto id="07">
+      <descr>Ottico, 3 tasti e rotella scroll. Nero.</descr>
+      <tipologia>Mouse</tipologia>
+      <quantita>3</quantita>
+    </prodotto>
+  </riga>
+</documento>
+
+<!--
+
+Scrivere la funzione XPath che ritorna tutti i prodotti venduti ai quali è stato applicato uno sconto:
+
+//prodotto[sconto]
+
+Scrivere la funzione XPath che ritorna tutti i monitor venduti:
+
+//prodotto[tipologia = "Monitor"]
+
+<!ELEMENT prodotto (#CDATA | descr | tipologia | quantità | sconto)+>
+<!ATTLIST prodotto id ID #REQUIRED>
+
+-->

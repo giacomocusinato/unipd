@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1-0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+      <body>
+        <dl>
+        <xsl:for-each select="//prodotto">
+          <dt>Tipologia: <xsl:value-of select="tipologia"/></dt>
+          <dd>Descrizione: <xsl:value-of select="descr"/></dd>
+          <xsl:if test="sconto">
+            <dd>Sconto: <xsl:value-of select="sconto"/></dd>
+          </xsl:if>
+        </xsl:for-each>
+        </dl>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>

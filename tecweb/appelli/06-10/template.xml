@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1-0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <body>
+      <dl>
+        <xsl:for-each select="/corso">
+          <dt><xls:value-of select="@nome"/>
+          <dd>
+            Trimestre: <xsl:value-of select="trimetre"/>
+            Anno: <xsl:value-of select="anno"/>
+          </dd>
+          <dd>Ore lezione: <xsl:value-of select="ore[tipo='frontali']"/></dd>
+          <dd>Ore esercizi: <xsl:value-of select="ore[tipo='esercizi']"/></dd>
+          <dd>Ore laboratorio<xsl:value-of select="ore[tipo='laboratorio']"/></dd>
+        </xsl:for-each>
+      </dl>
+    </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
